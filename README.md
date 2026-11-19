@@ -70,10 +70,10 @@ Jumlah citra test per fold: 74, 82, 64, 81, dan 63 (total 364 citra).
 ![Distribusi kelas](output_png/output.png)
 
 ### Contoh citra tiap kelas
-![Contoh citra](output_png/eda_contoh_citra.png)
+![Contoh citra](output_png/contoh_citra.png)
 
 ### Sebaran resolusi citra asli
-![Ukuran citra](outputs/eda_ukuran_citra.png)
+![Ukuran citra](output_png/sebaran_solusi_citra.png)
 
 Rata-rata ukuran citra asli 270 × 270 piksel (minimum 69 × 69, maksimum 2.448 × 2.448). Sebanyak 446 dari 755 citra (59%) sudah berukuran 224 × 224 piksel, sehingga semua citra di-*resize* ke 224 × 224.
 
