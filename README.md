@@ -67,10 +67,10 @@ Jumlah citra test per fold: 74, 82, 64, 81, dan 63 (total 364 citra).
 ## 3. Exploratory Data Analysis
 
 ### Distribusi kelas
-![Distribusi kelas](outputs/eda_distribusi_kelas_fold1.png)
+![Distribusi kelas](output_png/output.png)
 
 ### Contoh citra tiap kelas
-![Contoh citra](outputs/eda_contoh_citra.png)
+![Contoh citra](output_png/eda_contoh_citra.png)
 
 ### Sebaran resolusi citra asli
 ![Ukuran citra](outputs/eda_ukuran_citra.png)
