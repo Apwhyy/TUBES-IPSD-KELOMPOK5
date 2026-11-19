@@ -87,7 +87,7 @@ Tiga skema pre-processing dieksplorasi:
 | **CLAHE** (skema utama) | *Contrast Limited Adaptive Histogram Equalization* pada kanal L (ruang warna LAB), *clip limit* 2,0, petak 8 × 8. Mempertajam tekstur lesi tanpa mengubah warna kulit |
 | Shades of Gray | *Color constancy* dengan norma Minkowski p = 6 untuk menormalkan warna dan pencahayaan |
 
-![Perbandingan pre-processing](outputs/eda_preprocessing_comparison.png)
+![Perbandingan pre-processing](output_png/perbandinga_skema_preprocessing.png)
 
 **Augmentasi saat training (di GPU, per batch):**
 - **SimpleCNN & ModifiedCNN**: *horizontal flip* (augmentasi ringan, karena model cenderung *underfitting*).
