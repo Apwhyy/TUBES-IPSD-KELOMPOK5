@@ -5,8 +5,8 @@ Perbandingan tiga arsitektur deep learning, yaitu **SimpleCNN**, **ModifiedCNN**
 
 **Anggota kelompok:**
 - Gede Bagus Narindra Utama
-- Razfathian Fadrisnain
-- Adhira Naufal Rafif Yumna
+- Razfathian Fadrisnain Adhira
+- Naufal Rafif Yumna
 
 Program Studi Sains Data, Telkom University Surabaya
 
