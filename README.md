@@ -133,21 +133,21 @@ Tiga skema pre-processing dieksplorasi:
 | MobileNetV3-Small | Validation | 0,7718 | 0,7661 | 0,7855 | 0,7677 | 0,9469 |
 | MobileNetV3-Small | **Test** | **0,7660** | **0,7692** | **0,7664** | **0,7535** | **0,9495** |
 
-![Perbandingan 3 model](outputs/comparison_3models_bar.png)
+![Perbandingan 3 model](output_png/perbandingan_performa_rataRata_5-fold_test_set.png)
 
 ### 7.2 Kurva training & validation
 
-![Kurva SimpleCNN](outputs/training_curves_SimpleCNN.png)
-![Kurva ModifiedCNN](outputs/training_curves_ModifiedCNN.png)
-![Kurva MobileNetV3-Small](outputs/training_curves_MobileNetV3-Small.png)
+![Kurva SimpleCNN](output_png/simple_cnn.png)
+![Kurva ModifiedCNN](output_png/modified_cnn.png)
+![Kurva MobileNetV3-Small](output_png/mobile_net_v3.png)
 
 ### 7.3 Confusion matrix (akumulasi test set 5-fold, 364 citra)
 
-![Confusion matrix](outputs/confusion_matrix_custom_models.png)
+![Confusion matrix](output_png/confusion_matrix3model.png)
 
 ### 7.4 Kurva ROC-AUC (One-vs-Rest)
 
-![ROC-AUC](outputs/roc_auc_custom_models.png)
+![ROC-AUC](output_png/roc_auc_curve3model.png)
 
 ### 7.5 Eksplorasi pre-processing (MobileNetV3-Small, test set, mean ± SD 5-fold)
 
@@ -157,7 +157,7 @@ Tiga skema pre-processing dieksplorasi:
 | CLAHE | 0,7660 ± 0,0598 | 0,7692 ± 0,0671 | 0,7664 ± 0,0353 | 0,7535 ± 0,0502 | 0,9495 ± 0,0185 |
 | Shades of Gray | 0,7724 ± 0,0680 | 0,7545 ± 0,0901 | 0,7725 ± 0,0646 | 0,7533 ± 0,0779 | 0,9462 ± 0,0216 |
 
-![Eksplorasi pre-processing](outputs/preprocessing_ablation.png)
+![Eksplorasi pre-processing](output_png/perbandingan_skema_pre-processing.png)
 
 ## 8. Analysis and Discussion
 
